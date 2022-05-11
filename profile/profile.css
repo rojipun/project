@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+
+}
+
+#header{
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    position:sticky;
+    background-color: black;
+     
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+}
+
+h1{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 30px;
+    color: #222;
+}
+
+.middle {
+    height: 1000px;
+    width: 1500px;
+    background-image: url(icon/75a5e5951742b430849433af8041c0bf.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #000000;
+}
+
+.profile-pic-div{
+    height: 181px;
+    width: 194px;
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid grey;
+}
+
+#photo{
+    height: 101%;
+    width: 100%;
+}
+
+#photo{
+    height: 100%;
+    width: 100%;
+}
+
+#file{
+    display: none;
+}
+
+#uploadBtn{
+    height: 40px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    color: wheat;
+    line-height: 30px;
+    font-family: sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    display: none;
+}
+
+ .header_right{
+      display: flex;
+      align-items: center;
+      padding: 10px;
+      margin-left: 10px;
+      border-radius: 999px;
+
+}
+
+.header_middle{
+    display: flex;
+    justify-content: center;
+    height: 58px;
+    width: 1324px;
+} 
+
+.header_option {
+    /* display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 10px; */
+    border:1px solid black;
+    display:inline;
+    padding: 1px 30px;
+    display:flex;
+    
+}
+
+.header_option .material-symbols-outlined{
+    font-size: xx-large;
+    color: gray;
+    width: 32px;
+    padding-right: 83px;
+}
+
+.material-symbols-outlined{
+    color: gray;
+    font-size: xx-large;
+}
+
+.input{
+    border: none;
+    background-color: transparent;
+    outline: 0;
+}
+
+
+.material-symbols-outlined:hover{
+    color: blue;
+}
